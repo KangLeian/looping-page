@@ -81,28 +81,8 @@ function App() {
     }
   ];
   const [pages, setPages] = useState(mainPages);
-  // const mainBody = useRef();
   const byPage = useRef();
-  // const pageRef = useRef();
-  // const scrollHandler = () => {
-    // console.log("page", pageRef.current)
-    // console.log("body", mainBody.current);
-    // mainBody.current.getBoundingClientRect().y = mainBody.current.getBoundingClientRect().y - mainBody.current.getBoundingClientRect().top;
-    // console.log("scroll", mainBody.current.getBoundingClientRect().top);
-    // console.log("scroll", )
-    // let y = mainBody.current.getBoundingClientRect().top;
-    // window.scrollTo( 0, mainBody.current.getBoundingClientRect().top);
-    // byPage.current.scrollLeft = -y;
 
-    // console.log("body", mainBody.current.getBoundingClientRect().top);
-    // console.log(mainBody.current.getBoundingClientRect().x = -mainBody.current.getBoundingClientRect().top);
-  // };
-  // useEffect(() => {
-  //   window.addEventListener("scroll", scrollHandler, true);
-  //   return () => {
-  //     window.removeEventListener("scroll", scrollHandler, true);
-  //   };
-  // }, []);
 
 
     return (
